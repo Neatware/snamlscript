@@ -62,13 +62,15 @@ you can work SnamlScript with syntax highlight in Atom for Windows, MacOSX and L
 
 \# html header
 
-  _html "lang='en'"
+    _html "lang='en'"
+
     _head
 
 \# quote command render a string
 
       _title; quote Hello; title_
     head_
+
     _body
 
 \# you can leave space in a line
@@ -77,7 +79,7 @@ you can work SnamlScript with syntax highlight in Atom for Windows, MacOSX and L
       quote "Hello World!"
     body_
 
-  html_
+    html_
 
 ## 7. Copyrights
 
