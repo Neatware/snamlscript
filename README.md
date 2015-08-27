@@ -64,23 +64,23 @@ you can work SnamlScript with syntax highlight in Atom for Windows, MacOSX and L
 
   _html "lang='en'"
 
-  _head
+    _head
 
 \# quote command render a string
 
-    _title; quote Hello; title_
-  head_
+      _title; quote Hello; title_
+    head_
 
-  _body
+    _body
 
 \# you can leave space in a line
 
-    __img src='hello.gif' alt='hello'
-    quote "Hello World!"
+      __img src='hello.gif' alt='hello'
+      quote "Hello World!"
 
-  body_
+    body_
 
- html_
+  html_
 
 ## 7. Copyrights
 
