@@ -1,8 +1,8 @@
 # SnamlScript
 
-- A Language of HTML5 Template Generator for Cloud Apps
+### A Language of HTML5 Template Generator for Cloud Apps
 
-## 0. New features
+## New features
 
 v5.1.0
 * more readable with multiple parameters for all commands
@@ -42,23 +42,23 @@ Since current SnamlScript was implemented by Tcl which has been pre-installed in
 
 SnamlScript syntax highlight for Atom editor is available on GitHub. Simply type
 
-apm install snamlscript-syntax
+''' apm install snamlscript-syntax '''
 
 you can work SnamlScript with syntax highlight in Atom for Windows, MacOSX and Linux.
 
 ## 6. Simple Example
 
 '''
-# Use SnamlScript package
+\# Use SnamlScript package
 package require SnamlScript
 
-# output to a file.
+\# output to a file.
 output hello.html
 
-# declare document type as html
+\# declare document type as html
 __doctype html
 
-# html header
+\# html header
 _html "lang='en'"
   _head
     # quote command render a string
