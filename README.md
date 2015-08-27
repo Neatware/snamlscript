@@ -50,34 +50,31 @@ you can work SnamlScript with syntax highlight in Atom for Windows, MacOSX and L
 
 \# Use SnamlScript package
 
-  package require SnamlScript
+    package require SnamlScript
 
 \# output to a file.
 
-  output hello.html
+    output hello.html
 
 \# declare document type as html
 
-  __doctype html
+    __doctype html
 
 \# html header
 
   _html "lang='en'"
-
     _head
 
 \# quote command render a string
 
       _title; quote Hello; title_
     head_
-
     _body
 
 \# you can leave space in a line
 
       __img src='hello.gif' alt='hello'
       quote "Hello World!"
-
     body_
 
   html_
