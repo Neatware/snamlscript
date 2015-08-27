@@ -49,23 +49,28 @@ you can work SnamlScript with syntax highlight in Atom for Windows, MacOSX and L
 ## 6. Simple Example
 
 \# Use SnamlScript package
+
 package require SnamlScript
 
 \# output to a file.
+
 output hello.html
 
 \# declare document type as html
+
 __doctype html
 
 \# html header
 _html "lang='en'"
   _head
-    # quote command render a string
+    \# quote command render a string
+
     _title; quote Hello; title_
   head_
 
   _body
     \# you can leave space in a line
+
     __img src='hello.gif' alt='hello'
     quote "Hello World!"
   body_
@@ -78,4 +83,4 @@ Neatware owns the copyrights of SnamlScript.
 HTML5, Javascript, CSS are copyrights of one of International Standard Organization.  
 Meteor, Angular, Tcl are the copyrights of other third parties in Open Source.
 
-Copyrights (c)2014 Neatware. All rights reserved.
+Copyrights &copy;2015 Neatware. All rights reserved.
