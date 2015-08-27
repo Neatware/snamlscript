@@ -66,14 +66,14 @@ _html "lang='en'"
 
   _head
 
-    \# quote command render a string
+    # quote command render a string
 
     _title; quote Hello; title_
   head_
 
   _body
 
-    \# you can leave space in a line
+    # you can leave space in a line
 
     __img src='hello.gif' alt='hello'
     quote "Hello World!"
