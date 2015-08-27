@@ -1,15 +1,15 @@
-SnamlScript
+# SnamlScript
 
 - A Language of HTML5 Template Generator for Cloud Apps
 
-0. New features
+## 0. New features
 
 v5.1.0
 * more readable with multiple parameters for all commands
 * support Meteor Blaze binding commands like each, if, with
 * support SVG commands
 
-1. Introduction
+## 1. Introduction
 
 A Cloud App can be a Web, Mobile, IoT, SDN, or Storage Application.
 
@@ -17,11 +17,11 @@ SnamlScript is a commandline language which is similar to Tcl. Block commands an
 
 Neatware released SnamlScript as Open Source in Apache 2.0 License.
 
-2. Source Code
+## 2. Source Code
 
 SnamlScript 5.1 implementation was presented in source code snaml5.tcl. pkgIndex.tcl is the file to make snaml5.tcl as a package of tcl.
 
-3. Run on Windows
+## 3. Run on Windows
 
 This is the SnamlScript demo with Samples on Windows.
 
@@ -34,11 +34,11 @@ This is the SnamlScript demo with Samples on Windows.
 - "start angularhello.html" to launch browser
 - "notepad angularhello.sml" modify .sml code
 
-4. Mac OSX and Linux
+## 4. Mac OSX and Linux
 
 Since current SnamlScript was implemented by Tcl which has been pre-installed in most OSX and Linux platforms, you may "source snaml5.tcl" to load SnamlScript and run .sml codes.
 
-5. SnamlScript Syntax Highlight
+## 5. SnamlScript Syntax Highlight
 
 SnamlScript syntax highlight for Atom editor is available on GitHub. Simply type
 
@@ -46,8 +46,9 @@ apm install snamlscript-syntax
 
 you can work SnamlScript with syntax highlight in Atom for Windows, MacOSX and Linux.
 
-6. Simple Example
+## 6. Simple Example
 
+'''
 # Use SnamlScript package
 package require SnamlScript
 
@@ -70,8 +71,9 @@ _html "lang='en'"
     quote "Hello World!"
   body_
 html_
+'''
 
-7. Copyrights
+## 7. Copyrights
 
 Neatware owns the copyrights of SnamlScript.
 
