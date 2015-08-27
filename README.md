@@ -84,9 +84,6 @@ html_
 
 ## 7. Copyrights
 
-Neatware owns the copyrights of SnamlScript.
+Neatware owns the copyrights of SnamlScript. HTML5, Javascript, CSS are copyrights of one of International Standard Organization. Meteor, Angular, Tcl are the copyrights of other third parties in Open Source.
 
-HTML5, Javascript, CSS are copyrights of one of International Standard Organization.  
-Meteor, Angular, Tcl are the copyrights of other third parties in Open Source.
-
-Copyrights &copy;2015 Neatware. All rights reserved.
+#### Copyrights &copy;2015 Neatware. All rights reserved.
