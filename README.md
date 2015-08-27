@@ -1,6 +1,6 @@
 # SnamlScript
 
-### A Language of HTML5 Template Generator for Cloud Apps
+##### A Language of HTML5 Template Generator for Cloud Apps
 
 ## New features
 
@@ -42,13 +42,12 @@ Since current SnamlScript was implemented by Tcl which has been pre-installed in
 
 SnamlScript syntax highlight for Atom editor is available on GitHub. Simply type
 
-''' apm install snamlscript-syntax '''
+ apm install snamlscript-syntax
 
 you can work SnamlScript with syntax highlight in Atom for Windows, MacOSX and Linux.
 
 ## 6. Simple Example
 
-'''
 \# Use SnamlScript package
 package require SnamlScript
 
@@ -66,12 +65,11 @@ _html "lang='en'"
   head_
 
   _body
-    # you can leave space in a line
+    \# you can leave space in a line
     __img src='hello.gif' alt='hello'
     quote "Hello World!"
   body_
 html_
-'''
 
 ## 7. Copyrights
 
